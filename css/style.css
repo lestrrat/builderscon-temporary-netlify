@@ -78,7 +78,21 @@ body > main > section#submit > div {
     text-align: center;
 }
 
-body > main > section#submit > div > a.submit-button {
+body > main > section#ticket > div {
+    grid-column: 2 / 4;
+    text-align: center;
+}
+
+body > main > section#submit,section#ticket > div > a.submit-button {
+    display: inline-block;
+    background-color: var(--logo-red);
+    color: white;
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: .25em;
+}
+
+body > main > section#ticket > div > a.important-button {
     display: inline-block;
     background-color: var(--logo-red);
     color: white;
