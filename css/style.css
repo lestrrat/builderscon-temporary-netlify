@@ -112,6 +112,18 @@ body > main > section#about > div.content {
     grid-column: 3 / 4;
 }
 
+body > main > section#sponsored_by > h2 {
+    grid-column: 2;
+}
+
+body > main > section#sponsored_by > div.content {
+    grid-column: 3/4;
+}
+
+body > main > section#sponsored_by > div.content img {
+    height: 4em;
+}
+
 body > footer {
     grid-column: 1 / 5;
 
