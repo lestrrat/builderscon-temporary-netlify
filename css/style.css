@@ -73,12 +73,7 @@ body > main > section#access {
 body > main > section#submit {
 }
 
-body > main > section#submit > div {
-    grid-column: 2 / 4;
-    text-align: center;
-}
-
-body > main > section#ticket > div {
+body > main > section#submit,section#ticket,section#timetable > div {
     grid-column: 2 / 4;
     text-align: center;
 }
@@ -97,6 +92,15 @@ body > main > section#ticket > div > a.important-button {
     background-color: var(--logo-red);
     color: white;
     font-size: 1.5em;
+    padding: .5em;
+    border-radius: .25em;
+}
+
+body > main > section#timetable > div > span.link {
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: var(--gray-dark);
+    color: var(--white);
     padding: .5em;
     border-radius: .25em;
 }
