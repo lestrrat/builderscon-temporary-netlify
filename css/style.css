@@ -73,7 +73,22 @@ body > main > section#access {
 body > main > section#submit {
 }
 
-body > main > section#submit,section#ticket,section#timetable > div {
+body > main > section#submit > div {
+    grid-column: 2 / 4;
+    text-align: center;
+}
+
+body > main > section#ticket > div {
+    grid-column: 2 / 4;
+    text-align: center;
+}
+
+body > main > section#timetable > div {
+    grid-column: 2 / 4;
+    text-align: center;
+}
+
+body > main > section#call-for-blog-link > div {
     grid-column: 2 / 4;
     text-align: center;
 }
@@ -96,13 +111,17 @@ body > main > section#ticket > div > a.important-button {
     border-radius: .25em;
 }
 
-body > main > section#timetable > div > span.link {
+body > main > section > div > span.link {
     display: inline-block;
     font-size: 1.5em;
     background-color: var(--gray-dark);
     color: var(--white);
     padding: .5em;
     border-radius: .25em;
+}
+
+body > main > section > div > span.link.important {
+    background-color: var(--logo-red);
 }
 
 body > main > section#about {
