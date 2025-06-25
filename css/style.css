@@ -106,7 +106,7 @@ header img{
     background: linear-gradient(transparent 70%, #FFFD87 70%);
 }
 .section-title.about .btn{
-    border-radius: 29px; 
+    border-radius: 29px;
     background-image: linear-gradient(90deg, #0094F7, #FF4B48);
     border: none;
     transition: .5s;
@@ -126,6 +126,39 @@ header img{
 .section-title.about .btn img{
     vertical-align: sub;
     padding-left: 5px;
+}
+.section-title.sponsors{
+    border: 2px solid #3D3D3D;
+    position: relative;
+    box-shadow: 16px 16px 0px 0 #3D3D3D;
+    text-align: center;
+}
+.section-title.sponsors::before{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 5px;
+    background-color: #FFF;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.section-title.sponsors h2{
+    color: #3d3d3d;
+    position: absolute;
+    top: -30px;
+    right: -10px;
+    left: 0;
+    margin: 0 auto;
+}
+.section-title.sponsors h3 {
+    font-size: 30px;
+}
+.section-title.sponsors img {
+    width: 100%;
+    max-width: 500px;
 }
 .pc{
     display: block;
@@ -193,7 +226,7 @@ header img{
     font-size: 31px;
     padding-right: 5px;
     padding-left: 5px;
-    
+
 }
 .information-item.schedule span:nth-child(8){
     font-size: 26px;
@@ -295,7 +328,7 @@ header img{
     color: #3D3D3D;
     letter-spacing: 0.2px;
     line-height: 32px;
-    flex: 1; 
+    flex: 1;
 }
 footer{
     background: #000;
@@ -329,8 +362,8 @@ body {
 .header-pc{
     display: none;
 }
-.sm { 
-    display: block; 
+.sm {
+    display: block;
 }
 .pc {
     display: none;
@@ -376,6 +409,16 @@ body {
 .section-title.about .btn img {
     padding-left: 0px;
     width: 18px;
+}
+.section-title.sponsors h2 {
+    top: -18px;
+    right: -5px;
+}
+.section-title.sponsors::before {
+    width: 220px;
+}
+.section-title.sponsors img {
+    min-height: 16px;
 }
 .section-title.information {
     box-shadow: 10px 10px 0 0 #E95532;
