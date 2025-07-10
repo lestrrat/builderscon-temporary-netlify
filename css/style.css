@@ -156,9 +156,13 @@ header img{
 .section-title.sponsors h3 {
     font-size: 30px;
 }
-.section-title.sponsors img {
+.section-title.sponsors .coffee img {
     width: 100%;
     max-width: 500px;
+}
+.section-title.sponsors .supporter img {
+    width: 80%;
+    max-width: 400px;
 }
 .pc{
     display: block;
