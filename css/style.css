@@ -160,6 +160,10 @@ header img{
     width: 100%;
     max-width: 500px;
 }
+.section-title.sponsors .pamphlet img {
+    width: 80%;
+    max-width: 400px;
+}
 .section-title.sponsors .supporter img {
     width: 80%;
     max-width: 400px;
